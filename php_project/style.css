@@ -1,0 +1,49 @@
+.container {
+    justify-content:center;
+    align-items:center; 
+    height:100vh;
+    display:flex; 
+
+} 
+#label {
+    color:black;
+    font-size: 16px;
+    justify-content: left; 
+    padding-top: 5px;
+    text-align:left;
+    cursor: default;
+ }
+#submit {
+    border-radius: 3px ;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:white;
+    background-color:rgb(42, 42, 102);
+}
+.header{
+    top: 24%;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    background-color: rgb(129, 134, 134);
+}
+.footer {
+    position: fixed;
+    font-size: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color:black;
+    text-align: center;
+  }
+  h3 {
+    color:black;
+    position: relative;
+    font-size: 10px;
+    left: -230px;
+}
